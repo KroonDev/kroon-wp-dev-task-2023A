@@ -1,0 +1,6 @@
+# For the sake of the task, we are not ignoring any environment related files or folders
+# The idea is to have a plug and play solution for the candidate as well as for the reviewer
+# The candidate should be able to clone the repo and run the app without any additional steps
+
+# ignore .DS_Store files
+**/.DS_Store
