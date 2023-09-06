@@ -38,6 +38,7 @@ This is a Wordpress Developer test task for Kroon Studio. The task instuctions h
 docker-compose up -d
 ```
 
+
 ## Alternative Installation
 We are aware you might not be familiar with Docker. While we strongly recommend you give Docker a second try, if you are still not able to run the Docker Compose command, you can run the `wordpress_site` within your preferred environment. In the db_dumps folder you will find a database dump file. You can import this file into your database and use the credentials above to connect to it. You will also need to update the wp-config.php file with the new database credentials.
 
