@@ -181,3 +181,9 @@ function blankslate_comment_count($count)
         return $count;
     }
 }
+
+function enqueue_custom_styles()
+{
+    wp_enqueue_style('homepage', get_template_directory_uri() . '/homepage.css', array(), '1.0', 'all');
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_styles');

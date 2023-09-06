@@ -336,7 +336,3 @@ section {
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap
 }
-
-#header {
-    background-color: blue !important;
-}

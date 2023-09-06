@@ -38,7 +38,7 @@ This is a Wordpress Developer test task for Kroon Studio. The task instuctions h
 docker-compose up -d
 ```
 
-## Ulternative Installation
+## Alternative Installation
 We are aware you might not be familiar with Docker. While we strongly recommend you give Docker a second try, if you are still not able to run the Docker Compose command, you can run the `wordpress_site` within your preferred environment. In the db_dumps folder you will find a database dump file. You can import this file into your database and use the credentials above to connect to it. You will also need to update the wp-config.php file with the new database credentials.
 
 ## Links
@@ -48,7 +48,7 @@ We are aware you might not be familiar with Docker. While we strongly recommend 
 
 ## Folder Structure
 - **db_data:** This folder contains the database files. As you move on with your tasks, this folder will be populated with the database changes. **Do not modify this folder!**
-- **db_dumps:** This folder contains the database dump file. If you use the docker-compose command, the database should be already imported. In any case, here you can find a copy of the initial database dump file: ```db_data/initial_db.sql```.
+- **db_dumps:** This folder contains the database dump file. If you use the docker-compose command, the database should be already imported. In any case, here you can find a copy of the initial database dump file: ```db_dumps/initial_db.sql```.
 - **wordpress_site:** This folder contains the Wordpress site files. Here you will work on your tasks.
 - **docker-compose.yml:** This file contains the Docker Compose configuration. You should not need to modify this file.
 - **TASK_NOTES.md:** You should write your task notes in this file.
